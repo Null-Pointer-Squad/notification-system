@@ -1,0 +1,2 @@
+docker run --name mongodb -d -p 27017:27017 mongodb/mongodb-community-server:$MONGODB_VERSION
+docker run -it -p 15672:15672 -p 5672:5672 rabbitmq
